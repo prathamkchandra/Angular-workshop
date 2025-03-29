@@ -25,6 +25,13 @@ $secondary: #ffc107;
 body {
   font-family: sans-serif;
 }
+.main-content {
+  min-height: calc(100vh - 100px); /* Adjust height to prevent overlap */
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  padding: 20px;
+}
 
 .no-data {
   display: flex;
