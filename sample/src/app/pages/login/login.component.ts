@@ -10,10 +10,10 @@ import { FormsModule } from '@angular/forms';
   styleUrls: ['./login.component.scss']
 })
 export class LoginComponent {
-  route = inject(Router); // ✅ FIXED: Use inject to get Router instance
+  route = inject(Router); // 
   username = '';
   password = '';
-  logintext: string = 'Login'; // ✅ FIXED: Define logintext
+  logintext: string = 'Login'; // 
 
   constructor(private router: Router) {}
 
